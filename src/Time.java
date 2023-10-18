@@ -55,17 +55,17 @@ public class Time {
         boolean isPM = false;
         if(military) {
             if(hour < 10) {
-                newHour = "0" + String.valueOf(hour);
+                newHour = "0" + hour;
             } else {
                 newHour = String.valueOf(hour);
             }
             if(minute < 10) {
-                newMinute = "0" + String.valueOf(minute);
+                newMinute = "0" + minute;
             } else {
                 newMinute = String.valueOf(minute);
             }
             if(second < 10) {
-                newSecond = "0" + String.valueOf(second);
+                newSecond = "0" + second;
             } else {
                 newSecond = String.valueOf(second);
             }
@@ -76,17 +76,17 @@ public class Time {
                 isPM = true;
             }
             if(hour < 10) {
-                newHour = "0" + String.valueOf(hour);
+                newHour = "0" + hour;
             } else {
                 newHour = String.valueOf(hour);
             }
             if(minute < 10) {
-                newMinute = "0" + String.valueOf(minute);
+                newMinute = "0" + minute;
             } else {
                 newMinute = String.valueOf(minute);
             }
             if(second < 10) {
-                newSecond = "0" + String.valueOf(second);
+                newSecond = "0" + second;
             } else {
                 newSecond = String.valueOf(second);
             }
